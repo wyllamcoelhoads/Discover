@@ -1,18 +1,15 @@
-body{
-/*  background-image: url("./assets/bg-mobile.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-*/
-
-  /*background: color image reapt position/size essa esse comando representa todos os outro na parti de cima mais em apenas uma linha!!!*/
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
 }
 
-#conteiner {
-  width: 360px;
-  height: 712px;
-  border: 1px solid red;
-  margin: auto;
-  
+a {
+    color: green;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
