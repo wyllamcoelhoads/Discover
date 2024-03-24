@@ -1,15 +1,23 @@
-body {
-    background-color: black;
-    color: green;
-    font-family: Arial, sans-serif;
+body{
+/*  
+    background-image: url("./assets/bg-mobile.jpg");
+    background-repeat: no-repeat; permite não repetir a imagem
+    background-position:top center; posiciona o conteuno no centro usando o x como referencia
+    background-size: cover; preenche a tela com todo o backgound
+*/
+
+background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+
+
+}
+#conteiner{
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
+    margin: auto;
 }
 
-a {
-    color: green;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-a:hover {
-    text-decoration: underline;
+#profile img{
+    width: 112px;
+    margin: auto;
 }
