@@ -12,12 +12,13 @@ background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 #conteiner{
     width: 360px;
-    height: 712px;
     border: 1px solid red;
     margin: auto;
 }
+ #profile { 
+    text-align: center ;
+ }
 
 #profile img{
     width: 112px;
-    margin: auto;
 }
