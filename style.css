@@ -2,6 +2,8 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 body{
 /*  
@@ -14,9 +16,6 @@ body{
 background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-body * {
- font-femily: Inter;
-}
 #conteiner{
     width: 360px;
     margin: auto;
@@ -38,4 +37,38 @@ body * {
     font-family: Inter;
     color: aliceblue;
     margin-top: 8px;
+}
+
+/*links dos botẽos das istas*/
+
+ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li a{
+    display: flex;
+    justify-content: center;
+    /*poderia ser tambem 
+    display: block
+    text-align: center
+    para resolver a linha 50 e 51*/
+    border: 1px solid red;
+    padding: 16px 24px;
+    align-items: center;/*alinha os itens ao centro da caixa*/
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5); 
+    backdrop-filter: blur(4px);
+    color: aliceblue;/*cor do texto*/
+}
+
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin: 52px;
+    color: aliceblue;
 }
