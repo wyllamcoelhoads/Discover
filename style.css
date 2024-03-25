@@ -18,9 +18,8 @@ background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 
 #conteiner{
     width: 360px;
-    margin: auto;
-
-    margin-top: 56px;
+    margin: 56px auto 0px;
+    padding: 0 24px;
 }
  #profile { 
     text-align: center ;
@@ -47,6 +46,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding: 24px 0;
 }
 
 ul li a{
@@ -63,12 +63,35 @@ ul li a{
     border: 1px solid rgba(255,255,255,0.5); 
     backdrop-filter: blur(4px);
     color: aliceblue;/*cor do texto*/
+    transition: backgound 0.5s;
+    border-radius: 15px; /*deixa o canto arredondado em 15px*/
 }
 
+/*aplicas alterações quando passamos o mouse por cima do objeto usando hover*/
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1.5px solid white;  
+
+}
+#social-links {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    padding:  24px 0;
+    font-size: 24px;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.5); 
+    backdrop-filter: blur(4px);
+    border-radius: 15px; /*deixa o canto arredondado em 15px*/
+}
 
 footer{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: flex-end;
-    margin: 52px;
+    margin: auto;
     color: aliceblue;
+    font-size: 14px;
 }
